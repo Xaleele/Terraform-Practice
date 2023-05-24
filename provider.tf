@@ -13,5 +13,6 @@ provider "google" {
   project = "quokka-terraform-project"
   region = "us-west1"
   zone = "us-west1-a"
+  credentials = "keys.json"
 }
 
